@@ -1,1 +1,0 @@
-print('Hello World!!!!!!! Chúc bạn Linh buổi tối vui vẻ')
