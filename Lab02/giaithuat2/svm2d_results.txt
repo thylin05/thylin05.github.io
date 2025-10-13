@@ -1,0 +1,19 @@
+SVM Linear Results
+CSV: diabetes_prediction_dataset.csv
+Features: ['bmi', 'HbA1c_level']
+Target: diabetes
+Kernel: linear, C=1.0
+Train size: 70000, Test size: 30000
+Test accuracy: 0.9406
+Confusion matrix [[TN, FP], [FN, TP]]: [[27380, 44], [1739, 837]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+ No diabetes     0.9403    0.9984    0.9685     27424
+    Diabetes     0.9501    0.3249    0.4842      2576
+
+    accuracy                         0.9406     30000
+   macro avg     0.9452    0.6617    0.7264     30000
+weighted avg     0.9411    0.9406    0.9269     30000
+
